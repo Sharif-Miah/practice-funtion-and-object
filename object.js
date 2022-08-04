@@ -18,4 +18,13 @@ let myProfile = {
 // console.log(myProfile.add);
 // console.log(myProfile.add.home);
 // console.log(myProfile.add.district);
-console.log(myProfile.add.country);
+// console.log(myProfile.add.country);
+
+let key = Object.keys(myProfile)
+console.log(key);
+
+let addKey = Object.keys(myProfile.add)
+console.log(addKey);
+
+let value = Object.values(myProfile)
+console.log(value)
