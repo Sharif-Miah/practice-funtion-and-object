@@ -43,7 +43,7 @@ let shopingCard = {
 
 var itemsValeu = 'keybord';
 itemMan = shopingCard[itemsValeu];
-console.log(itemsValeu, itemMan);
+// console.log(itemsValeu, itemMan);
 
 // var buysItems = shopingCard;
 // console.log(buysItems);
@@ -69,3 +69,34 @@ var buysItems4 = Object.keys(shopingCard)
 
 // let items = buysItems4[i];
 // console.log(items);
+
+
+// set Property value 
+
+// shopingCard.mouse = 40;
+// console.log(shopingCard);
+
+// shopingCard["mobileUse"] = 8;
+// console.log(shopingCard);
+
+
+let tabileItems = {
+    noteBook: 4,
+    book: 2,
+    charger: 3,
+    monitor: 1,
+    keybord: 1,
+    cp: 1,
+    mouse: 1
+}
+
+// console.log(tabileItems);
+tabileItems.book = 10;
+tabileItems['charger'] = 5;
+tabileItems.cp = 'computer'
+console.log(tabileItems);
+
+let propertyValues = 'charger';
+
+let propertyItem = tabileItems[propertyValues]
+console.log(propertyItem);
