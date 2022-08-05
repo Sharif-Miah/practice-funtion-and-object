@@ -23,6 +23,14 @@ let shopingCard = {
 // }
 
 
+// for in loop 
+
+for (shoppingName in shopingCard) {
+    let vlaues = shopingCard[shoppingName]
+    console.log(shoppingName, vlaues);
+}
+
+
 let bookPrice = {
     noteBook: 30,
     mathBook: 250,
@@ -32,17 +40,25 @@ let bookPrice = {
     financeBook: 600
 }
 
-let bookKeys = Object.keys(bookPrice);
-console.log(bookKeys);
+// let bookKeys = Object.keys(bookPrice);
+// console.log(bookKeys);
 
-let bookValue = Object.values(bookPrice)
-console.log(bookValue);
+// let bookValue = Object.values(bookPrice)
+// console.log(bookValue);
 
 
 // let keys = [ 'noteBook', 'mathBook','englishBook','accountingBook','markingingBook','financeBook']
 
-for (let i = 0; i < bookKeys.length; i++) {
-    let bookName = bookKeys[i];
-    let bookValue = bookPrice[bookName]
-    console.log(bookName, bookValue);
-}
+// for (let i = 0; i < bookKeys.length; i++) {
+//     let bookName = bookKeys[i];
+//     let bookValue = bookPrice[bookName]
+//     console.log(bookName, bookValue);
+// }
+
+
+// for in loop
+
+// for (let bookNeedPrice in bookPrice) {
+//     let bookNewValue = bookPrice[bookNeedPrice]
+//     console.log(bookNeedPrice, bookNewValue);
+// }
